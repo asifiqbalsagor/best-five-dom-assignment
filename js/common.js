@@ -69,5 +69,28 @@ function displayPlayerName(PlayerName) {
     
     
     
-
+    document.getElementById("calculate-total").addEventListener("click", function () {
+      const playerCostNumber = document.getElementById("player-cost");
+      const playerCostString = playerCostNumber.innerText;
+      const playerCost= parseFloat(playerCostString);
+     
+      const managerInputField = document.getElementById("manager-input-field");
+      const managerInputString = managerInputField.value;
+      const managerInputValue = parseFloat(managerInputString);
+     
+      const coachInputField = document.getElementById("coach-input-field");
+      const coachInputString = coachInputField.value;
+      const coachInputValue = parseFloat(coachInputString);
+     
+      if (isNaN(managerInputValue) || isNaN(coachInputValue)) {
+        alert("Please enter the valid number");
+        return;
+      }
+     
+      const calculateTotal = playerCost + managerInputValue + coachInputValue;
+     
+      const totalAmount = document.getElementById("total-amount");
+     
+      totalAmount.innerText = calculateTotal;
+     });
     
