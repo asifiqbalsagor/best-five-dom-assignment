@@ -21,137 +21,138 @@
         </div>
     <!-- header end -->
     <!-- main section start  -->
-      <main>
-        <div class="container">
-          <div class="row g-4 mb-5">
-            <!-- All player  -->
-            <!-- player 1 -->
-            <div class="col-md-3">
-              <div class="card text-center">
-                <img src="images/pic1.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Neymar Junior</h5>
-                  <div class="d-flex justify-content-evenly">
-                    <p>59 Goals</p>
-                    <p>187 Assist</p>
-                  </div>
-                  <button
-                    class="btn btn-primary px-5 select_btn"
-                    onclick="selectBtn(this)"
-                  >
-                    SELECT
-                  </button>
+        <main>
+          <section>
+            <div class="container mt-5">
+              <div class="row g-4 mb-5">
+                <!-- All player  -->
+                <!-- player 1 -->
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="images/pic1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Neymar Junior</h5>
+                            <div class="d-flex justify-content-evenly ">
+                                <p>77 Goals</p>
+                                <p>132 Assist</p>
+                            </div>
+                            <button class="btn btn-primary px-5 button-select"  onclick="buttonSelect(this)">SELECT</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <!-- player 2 -->
-            <div class="col-md-3">
-              <div class="card text-center">
-                <img src="images/pic2.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Lionel Messi </h5>
-                  <div class="d-flex justify-content-evenly">
-                    <p>88 Goals</p>
-                    <p>208 Assist</p>
-                  </div>
-                  <button
-                    class="btn btn-primary px-5 select_btn"
-                    onclick="selectBtn(this)"
-                  >
-                    SELECT
-                  </button>
+                <!-- player 2 -->
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="images/pic2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Lionel Messi</h5>
+                            <div class="d-flex justify-content-evenly ">
+                                <p>94 Goals</p>
+                                <p>197 Assist</p>
+                            </div>
+                            <button class="btn btn-primary px-5 button-select" onclick="buttonSelect(this)" >SELECT</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <!-- player 3 -->
-            <div class="col-md-3">
-              <div class="card text-center">
-                <img src="images/pic3.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Kylian Mbappe</h5>
-                  <div class="d-flex justify-content-evenly">
-                    <p>44 Goals</p>
-                    <p>142 Assist</p>
-                  </div>
-                  <button class="btn btn-primary px-5" onclick="selectBtn(this)">
-                    SELECT
-                  </button>
+                <!-- player 3 -->
+                <div class="col-md-3">
+                    <div class="card text-center ">
+                        <img src="images/pic3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Kylian Mbappe</h5>
+                            <div class="d-flex justify-content-evenly ">
+                                <p>54 Goals</p>
+                                <p>162 Assist</p>
+                            </div>
+                            <button class="btn btn-primary px-5 " onclick="buttonSelect(this)">SELECT</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <!-- selected five section  -->
-            <!--  -->
+                <!-- Selected - V section  -->
+                <div class="col-md-3 bg-dark text-white ">
+                   <h2 class="text-center ">Selected - V</h2>
+                     <div id="list-of-player-name"  class="text-center">
+                     </div>
+                </div>
+                <!-- player 4 -->
+                <div class="col-md-3">
+                   <div class="card text-center ">
+                       <img src="images/pic4.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                           <h5 class="card-title">Cristiano Ronaldo</h5>
+                           <div class="d-flex justify-content-evenly ">
+                               <p>68 Goals</p>
+                               <p>141 Assist</p>
+                           </div>
+                           <button class="btn btn-primary px-5 button-select" onclick="buttonSelect(this)" >SELECT</button>
+                       </div>
+                   </div>
+               </div>
+               <!-- player 5 -->
+                <div class="col-md-3">
+                   <div class="card text-center ">
+                       <img src="images/pic5.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                           <h5 class="card-title">Sergio Ramos</h5>
+                           <div class="d-flex justify-content-evenly ">
+                               <p>30 Goals</p>
+                               <p>102 Assist</p>
+                           </div>
+                           <button class="btn btn-primary px-5 button-select" onclick="buttonSelect(this)" >SELECT</button>
+                       </div>
+                   </div>
+               </div>
+               <!-- player 6 -->
+                <div class="col-md-3">
+                   <div class="card text-center ">
+                       <img src="images/pic6.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                           <h5 class="card-title">Ozil</h5>
+                           <div class="d-flex justify-content-evenly ">
+                               <p>78 Goals</p>
+                               <p>180 Assist</p>
+                           </div>
+                           <button class="btn btn-primary px-5 button-select" onclick="buttonSelect(this)" >SELECT</button>
+                       </div>
+                   </div>
+               </div>
+               <!-- Budget section  -->
             <div class="col-md-3 bg-dark text-white">
-              <h2 class="text-center">Selected - Five</h2>
-              <!-- <ol type="1" >
-                          
-                  </ol> -->
-              <div id="player_name_list" class="text-center">
-                <ol type="1"></ol>
-              </div>
+       
+            <h3 class="text-center m-3">Budget</h3>
+            <div class="d-flex justify-content-evenly mb-2">
+            <label>Per Player :</label>
+            <input type="text " id="player-input-field" class="p-0 w-50 mx-3">
             </div>
-            <!--  -->
-            <!-- player 4 -->
-            <div class="col-md-3">
-              <div class="card text-center">
-                <img src="images/pic4.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Cristiano Ronaldo</h5>
-                  <div class="d-flex justify-content-evenly">
-                    <p>54 Goals</p>
-                    <p>171 Assist</p>
-                  </div>
-                  <button
-                    class="btn btn-primary px-5 select_btn"
-                    onclick="selectBtn(this)"
-                  >
-                    SELECT
-                  </button>
-                </div>
-              </div>
+            <button class="btn btn-primary px-5 py-1 m-4 mx-5 " id="button-calculate">Calculate</button>
+            <div class="d-flex justify-content-evenly mb-2">
+            <label>Player Expenses : </label>
+            <h5>$<span id="player-cost"> 00</span></h5>
             </div>
-            <!-- player 5 -->
-            <div class="col-md-3">
-              <div class="card text-center">
-                <img src="images/pic5.png" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Sergio Ramos</h5>
-                  <div class="d-flex justify-content-evenly">
-                    <p>25 Goals</p>
-                    <p>72 Assist</p>
-                  </div>
-                  <button
-                    class="btn btn-primary px-5 select_btn"
-                    onclick="selectBtn(this)"
-                  >
-                    SELECT
-                  </button>
-                </div>
-              </div>
+       
+            <div class="d-flex justify-content-evenly mb-3">
+            <label>Manager :</label>
+            <input id="manager-input-field" type="text" class="p-0 w-50 mx-3">
             </div>
-            <!-- player 6 -->
-            <div class="col-md-3">
-              <div class="card text-center">
-                <img
-                  src="images/pic6.png"
-                  class="card-img-top"
-                  alt="..."
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Ozil</h5>
-                  <div class="d-flex justify-content-evenly">
-                    <p>52 Goals</p>
-                    <p>165 Assist</p>
-                  </div>
-                  <button
-                    class="btn btn-primary px-5 select_btn"
-                    onclick="selectBtn(this)"
-                  >
-                    SELECT
-                  </button>
-                </div>
-              </div>
+       
+            <div  class="d-flex justify-content-evenly mb-2">
+            <label>Coach :</label>
+            <input id="coach-input-field" type="text" class="p-0 w-50 mx-3">
             </div>
-            
+       
+            <button class="btn btn-primary px-5 py-1 m-3 mx-4 " id="calculate-total" >Calculate Total</button>
+       
+            <div class="d-flex justify-content-evenly mb-2">
+            <label>Total :</label>
+            <h5>$ <span id="total-amount">00</span></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+    </main>
+          <!-- main section end -->
+          <!-- add js file  -->
+        <script src="js/common.js"></script>
   </body>
 </html>
