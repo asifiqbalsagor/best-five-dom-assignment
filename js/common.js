@@ -49,3 +49,25 @@ function displayPlayerName(PlayerName) {
   
   
   
+  document.getElementById("button-calculate").addEventListener("click", function () {
+    const perPlayerInputField = document.getElementById("player-input-field");
+    const perPlayerInputString = perPlayerInputField.value;
+    const perPlayerInputValue = parseFloat(perPlayerInputString);
+    if (isNaN(perPlayerInputValue)) {
+     alert("Please enter a valid number");
+     return;
+    }
+    const playerArrayLength = playerArray.length;
+    
+    const perPlayerCost = playerArrayLength * perPlayerInputValue;
+    const playerCostNumber = document.getElementById("player-cost");
+    playerCostNumber.innerText = perPlayerCost;
+    });
+    
+    
+    
+    
+    
+    
+
+    
